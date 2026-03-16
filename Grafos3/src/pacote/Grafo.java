@@ -144,12 +144,11 @@ public class Grafo {
 			
 			if(grauAtual % 2 != 0) {
 				impares++;
-			}
-			
-			if (impares > 2) {
-				return true;
-			}
-			
+			}	
+		}
+		
+		if(impares == 2) {
+			return true;
 		}
 		return false;
 	}
